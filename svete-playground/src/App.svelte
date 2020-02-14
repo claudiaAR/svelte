@@ -1,5 +1,6 @@
+
 <script>
-	export let name;
+	export let name; 
 </script>
 
 <main>
@@ -13,6 +14,7 @@
 		padding: 1em;
 		max-width: 240px;
 		margin: 0 auto;
+		background: green;
 	}
 
 	h1 {
