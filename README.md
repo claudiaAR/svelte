@@ -2,7 +2,7 @@
 School project: Testing svelte.js 🌟
 
 
-## Get started
+## SETUP
 Start with npm i to install
 ```bash
 npm i
