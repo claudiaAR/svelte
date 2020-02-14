@@ -1,13 +1,10 @@
 
 <script>
-	import { onMount } from 'svelte';
-	
 	let count = 0;
 
 	function handleClick() {
 		count += 1;
 	}
-
 
 </script>
 
@@ -22,6 +19,9 @@
 </main>
 
 <style>
+	body{
+		padding: 6rem;
+	}
 	main {
 		text-align: center;
 		padding: 1em;
@@ -45,5 +45,5 @@
 		text-transform: uppercase;
 	}
 
-	
+
 </style>
