@@ -2,9 +2,8 @@
 <script>
 	let count = 0;
 
-	// `$:` betyder kör igen när dessa värden ändras
 	$: dubbel = count * 2;
-	$: fyrdubbel = dubbel * 2;
+	$: fyrdubbel = count * 2;
 
 	function handleClick() {
 		count += 1;
@@ -15,7 +14,6 @@
 	<button on:click={handleClick}>
 		Click me
 	</button>
-
 	<h1>
 		Clicked {count} {count === 1 ? 'time' : 'times'}
 	</h1>
@@ -25,16 +23,19 @@
 </main>
 
 <style>
+
 	main {
 		text-align: center;
 		padding: 1em;
-		max-width: 240px;
+		max-width: 15rem;
 		margin: 0 auto;
+		/* background:#f3e5e3; */
+		box-shadow: 15px 23px 29px -6px rgba(34,45,109,0.45);
 	}
 	h1 {
 		color: #18a4e0;
 		text-transform: uppercase;
-		font-size: 4em;
+		font-size: 3.8em;
 		font-weight: 100;
 	}
 
